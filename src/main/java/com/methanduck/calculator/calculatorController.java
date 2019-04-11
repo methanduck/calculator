@@ -12,4 +12,10 @@ class calculatorController {
 			   @RequestParam("b") Integer b) {
 		return String.valueOf(Calculator.sum(a, b));
 	}
+
+	@RequestMapping("/sub")
+		String sub(@RequestParam("a") Integer a,
+			   @RequestParam("b") Integer b) {
+		return String.valueOf(Calculator.sub(a,b));
+	}
 }

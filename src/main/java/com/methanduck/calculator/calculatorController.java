@@ -18,4 +18,16 @@ class calculatorController {
 			   @RequestParam("b") Integer b) {
 		return String.valueOf(Calculator.sub(a,b));
 	}
+	
+	@RequestMapping("/div")
+		String div(@RequestParam("a") Integer a,
+			   @RequestParam("b") Integer b) {
+		return String.valueOf(Calculator.sub(a,b));
+	}
+
+	@RequestMapping("/multi")
+		String multi(@RequestParam("a") Integer a,
+			   @RequestParam("b") Integer b) {
+		return String.valueOf(Calculator.sub(a,b));
+	}
 }

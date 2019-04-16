@@ -1,6 +1,9 @@
 package com.methanduck.calculator;
 
 import org.springframework.stereotype.Service;
+/**
+* calc service
+*/
 @Service
 public class calculator{
 	int sum(int a, int b) {

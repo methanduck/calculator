@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.12">
+<file name="/home/student/project/calculator/src/main/java/com/methanduck/calculator/CalculatorApplication.java">
+</file>
+<file name="/home/student/project/calculator/src/main/java/com/methanduck/calculator/calculator.java">
+</file>
+<file name="/home/student/project/calculator/src/main/java/com/methanduck/calculator/calculatorController.java">
+</file>
+</checkstyle>
